@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="cabeçalho">
     <div class="container">
@@ -36,7 +38,7 @@
           <a href="#" class="lista-menu__link">Design & UX</a>
         </li>
       </ul>
-      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+      <img src="https://raw.githubusercontent.com/giullianacestari/alura-books/e9df86af5a779e218d35b92912454ae033dc57b2/img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
     </div>
     <div class="container">
       <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
@@ -44,11 +46,13 @@
       <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
     </div>
   </header>
+
   <section class="banner">
     <h2 class="banner__titulo">Já sabe por onde começar?</h2>
     <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
     <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
   </section>
+
   <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
     <!-- Slider main container -->
@@ -56,7 +60,7 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="img/ApacheKafka.svg"
+        <div class="swiper-slide"><img src="img/Apachekafka.svg"
             alt="Livro sobre apache kafka e spring boot da alura books"></div>
         <div class="swiper-slide"><img src="img/Liderança.svg"
             alt="Livro sobre liderança em design design da alura books"></div>
@@ -72,10 +76,13 @@
           <img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade" />
         </div>
       </div>
+
       <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
+
     </div>
+
     <div class="card">
       <div class="card__descrição">
         <div class="descrição">
@@ -99,13 +106,16 @@
         <a href="#" class="botões__ancora">Saiba mais</a>
       </div>
     </div>
+
   </section>
+
   <section class=”carrossel”>
     <h2 class="carrossel__titulo">Mais vendidos</h2>
     <div class="swiper">
       <!-- Additional required wrapper -->
       <!-- If we need pagination -->
       <div class="swiper-pagination"></div>
+
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide"><img src="img/ApacheKafka.svg"
@@ -118,10 +128,12 @@
         <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
         <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
       </div>
+
       <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>
+
     <div class="card">
       <!-- 1º linha -->
       <div class="card__descrição">
@@ -136,6 +148,7 @@
         <!-- 2º coluna -->
         <img src="img/Escritora.svg" class="descrição__imagem">
       </div>
+
       <!-- 2º linha -->
       <div class="card__botões">
         <!-- 1º coluna -->
@@ -147,7 +160,11 @@
         <a href="#" class="botões__ancora">Saiba mais</a>
       </div>
     </div>
+
+
+
   </section>
+
   <section class="tópicos">
     <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
     <ul class="tópicos__lista">
@@ -202,4 +219,5 @@
     });
   </script>
 </body>
+
 </html>
